@@ -316,6 +316,7 @@ a {
 }
 .social-link-item{
     fill: #ffffff;
+    
 }
 
 
@@ -370,15 +371,27 @@ a {
   border-top: none;
 }
 
-.footer {
-  background-color: #2e2f42;
-  color: #ffffff;
-  font-size: 16px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  font-weight: 400;
-  text-align: left;
-  padding: 100px 0;
+/* FOOTER */
+
+.footer .container{
+    background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    color: #ffffff;
+    justify-content: flex-start;
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    padding: 100px 0 100px 156px;
+    
+    gap: 120px;
+  
+
+}
+.webstudio{
+    margin-right: 120px;
 }
 .footer .span-studio {
   color: #f4f4fd;
@@ -389,10 +402,27 @@ a {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-  width: 264px;
+  max-width: 264px;
   height: 72px;
+font-weight: 400;
+
 }
 .down-logo {
   display: inline-block;
   margin-bottom: 16px;
+  
+}
+.social-media{
+    display: block;
+}
+.sm-text{
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.social-media .social{
+    margin-left: 0;
+}
+.social-media .social-links{
+    width: 40px;
 }
