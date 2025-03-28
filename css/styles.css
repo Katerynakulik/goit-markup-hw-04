@@ -1,0 +1,357 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    letter-spacing: 0.02;
+    font: size 16px;
+}
+img{
+    display: block;
+}
+ul,
+ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;;
+    margin: 0 auto;
+    
+}
+.header{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+    line-height: 1.17;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+    }
+  .navbar {
+    display: flex;
+    align-items: center;
+            
+ }
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
+.navbar .logo:hover,
+.navbar .logo:focus{
+    color: #404bbf;
+
+}
+.span-studio {
+    color: #2e2f42;
+   
+}
+.navbar-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar-punkt {
+    display: block;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0;
+}
+.navbar-punkt:focus,
+.navbar-punkt:hover{
+    color: #404bbf;
+}
+.contact{
+    margin-left: auto;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.contact-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.contact-way {
+    line-height:1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    display: block;
+    padding: 24px 0;
+
+    
+}
+.contact-way:focus,
+.contact-way:hover {
+    color: #404bbf;
+}
+
+
+.title{
+    background-color: #2e2f42;
+    padding: 188px 0;
+}
+.container-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    
+   
+}
+.title-capture{
+    display: block;
+    color: #ffffff;
+    font-size:56px;
+    font-weight: bold;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+   
+    margin-bottom: 48px;
+    
+    max-width: 496px;
+
+   }
+.order-button{
+    background-color:#4d5ae5;
+    color:#ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing:0.04em;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 16px 32px;
+    display: block;
+    min-width: 169px;
+    border: none;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+  
+}
+.order-button:hover, .order-button:focus{
+    background-color: #404BBF;
+}
+
+.strengths{
+    padding: 120px 0;
+}
+.visually-hidden{
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.strengths-list{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+   
+
+}
+.strengths-item{
+  
+    width: calc((100% - 72px) / 4);
+}
+.strengths-list-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+
+    
+}
+.strengths-list-text{
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* team */
+
+.team{
+    background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+   
+}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    margin-bottom: 72px;
+
+}
+.team-list{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-basis: calc((100% - 3*24px) / 4);
+}
+.team-list-item{
+    background-color: #FFFFFF;
+    letter-spacing: 0.02em;
+    border-radius: 0px 0px 4px 4px;
+}
+.team-member{
+    padding: 32px 0;
+}
+.team-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px
+       
+}
+
+.team-list-text {
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    
+}
+
+.portfolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size:36px;
+    line-height:1.11;
+    text-align:center;
+    text-transform: capitalize;
+    color:#2e2f42;
+    letter-spacing: 0.02em;
+    margin-bottom: 72px;
+}
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+    padding-bottom: 19px;
+       
+}
+
+.portfolio-list-item{
+    width: calc ((100% - 48px) / 3);
+}
+
+.portfolio-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    display: block;
+    margin-bottom: 8px;
+    
+}
+
+.portfolio-list-text {
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    display: block;
+}
+.portfolio-description{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.footer{
+    background-color: #2e2f42;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;  
+    font-weight: 400;
+    text-align: left;
+    padding: 100px 0;
+    
+}
+.footer .span-studio {
+    color: #f4f4fd;
+    line-height: 1.17;
+    text-align: left;
+}
+.footer-text{
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+    width: 264px;
+    height: 72px;
+}
+.down-logo{
+    display: inline-block;
+    margin-bottom: 16px;
+}
