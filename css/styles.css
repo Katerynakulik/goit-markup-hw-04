@@ -482,3 +482,7 @@ font-weight: 400;
 .social-media .social-links{
     width: 40px;
 }
+.social-media .social-link:hover,
+.social-media .social-link:focus{
+  background-color: #31d0aa;
+}
