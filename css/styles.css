@@ -307,8 +307,7 @@ a {
     gap: 24px;
     justify-content: center;
     margin-top: 8px;
-    margin-left: 16px;
-    margin-right: 16px;
+   
 }
 .social-links{
     display: flex;
@@ -363,7 +362,6 @@ a {
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
-  padding-bottom: 19px;
 }
 
 .portfolio-list-item {
@@ -428,25 +426,24 @@ a {
 
 /* FOOTER */
 
+.footer{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #2e2f42;
+}
 .footer-wrapper{
-    background-color: #2e2f42;
-    display: flex;
-    color: #ffffff;
-    justify-content: flex-start;
-    font-size: 16px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-align: left;
-    padding: 100px 0 100px 156px;
-    gap: 120px;
-    align-items: baseline;
-    max-width: 1440px;
-    height: 312px;
-  
-
+  display: flex;
+  color: #ffffff;
+  justify-content: flex-start;
+  font-size: 16px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  gap: 120px;
+  align-items: baseline;
 }
 .webstudio{
-    margin-right: 120px;
+    
 }
 .footer .span-studio {
   color: #f4f4fd;
@@ -459,8 +456,7 @@ a {
   letter-spacing: 0.02em;
   max-width: 264px;
   height: 72px;
-font-weight: 400;
-
+  font-weight: 400;
 }
 .down-logo {
   display: inline-block;
